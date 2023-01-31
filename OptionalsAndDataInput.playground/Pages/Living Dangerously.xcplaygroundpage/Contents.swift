@@ -14,9 +14,9 @@
  */
 
 // Simulate first input
-let input1 = "20"
+let input1 = "19.7"
 // Convert first input to integer, using the force-unwrap operator !
-let input1AsInteger = Int(input1)!
+let input1AsInteger = Double(input1)!
 // Print data type of first conversion
 print("---")
 print("input1AsInteger has a data type of:")
@@ -26,7 +26,7 @@ print("===")
 // Simulate second input
 let input2 = "10"
 // Convert second input to integer, using the force-unwrap operator !
-let input2AsInteger = Int(input2)!
+let input2AsInteger = Double(input2)!
 // Print data type of second conversion
 print("---")
 print("input2AsInteger has a data type of:")
@@ -34,10 +34,10 @@ print(type(of: input2AsInteger))
 print("===")
 
 // Now try to do arithmetic...
-//let area = input1AsInteger * input2AsInteger
-//print("---")
-//print("The area has this many square units: \(area)")
-//print("===")
+let area = input1AsInteger * input2AsInteger
+print("---")
+print("The area has this many square units: \(area)")
+print("===")
 
 /*:
  
