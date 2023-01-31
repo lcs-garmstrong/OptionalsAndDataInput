@@ -17,12 +17,14 @@
  */
 
 // Attempt to convert a string with a numbers after the decimal sign to a real number
-let input1 = "20.0"
+//let input1 = "20.05"
 //let input1AsDouble = Double(input1)
 //print("---")
 //print("input1AsDouble has a data type of:")
 //print(type(of: input1AsDouble))
 //print("===")
+//
+//input1AsDouble
 
 // Attempt to convert a string with no numbers after the decimal sign to a real number
 let input2 = "20"
@@ -42,11 +44,11 @@ let input3 = "twenty"
 
 // Attempt to convert a string, "true", to a real number
 let input4 = "true"
-//let input4AsDouble = Double(input4)
-//print("---")
-//print("input4AsDouble has a data type of:")
-//print(type(of: input4AsDouble))
-//print("===")
+let input4AsDouble = Double(input4)
+print("---")
+print("input4AsDouble has a data type of:")
+print(type(of: input4AsDouble))
+print("===")
 
 /*:
  
