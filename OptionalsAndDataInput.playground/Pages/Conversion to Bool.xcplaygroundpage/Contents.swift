@@ -41,12 +41,12 @@ let input3 = "twenty"
 //print("===")
 
 // Attempt to convert a string, "true", to a boolean
-let input4 = "true"
-//let input4AsBool = Bool(input4)
-//print("---")
-//print("input4AsBool has a data type of:")
-//print(type(of: input4AsBool))
-//print("===")
+let input4 = "false"
+let input4AsBool = Bool(input4)
+print("---")
+print("input4AsBool has a data type of:")
+print(type(of: input4AsBool))
+print("===")
 
 /*:
  
