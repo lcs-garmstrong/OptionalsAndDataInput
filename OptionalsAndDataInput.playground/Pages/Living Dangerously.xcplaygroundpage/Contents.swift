@@ -14,7 +14,7 @@
  */
 
 // Simulate first input
-let input1 = "19.7"
+let input1 = ""
 // Convert first input to integer, using the force-unwrap operator !
 let input1AsInteger = Double(input1)!
 // Print data type of first conversion
